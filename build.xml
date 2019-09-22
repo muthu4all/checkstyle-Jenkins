@@ -18,8 +18,7 @@
     <formatter type="xml" tofile="checkstyle_report.xml"/>
     <fileset dir="src" includes="**/*.java"/>
   </checkstyle>
-       <style in="checkstyle_report.xml" out="checkstyle_report.html"
-      style="checkstyle.xsl"/>
+
 </target>
 
 
